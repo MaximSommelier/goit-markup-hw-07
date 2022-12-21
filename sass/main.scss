@@ -398,16 +398,12 @@
     margin-bottom: 50px;
 }
 .clients{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     gap: 30px;
 }
 
 .client-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     width: 170px;
     height: 90px;
     background-color: var(--third-color);  
@@ -442,9 +438,7 @@
 /* ======PORTFOLIO BUTTONS=====*/
 
 .portfolio-btn{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    @include centeredFlex(flex);
     margin-bottom: 50px;
  }
  
@@ -639,9 +633,7 @@ letter-spacing: 0.03em;
     margin-left: auto;
 }
 .socials-links-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     background-color: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
@@ -663,9 +655,7 @@ letter-spacing: 0.03em;
 }
 
 .subscribe_form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex(flex);
     margin-top: 20px;
     gap: 12px;
 }
@@ -694,9 +684,7 @@ letter-spacing: 0.03em;
 }
 
 .subscribe-button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex(flex);
     min-width: 200px;
     padding-top: 9px;
     padding-right: 26px;
@@ -903,9 +891,7 @@ letter-spacing: 0.03em;
     text-underline-offset: 3px;
 }
 .modal-form-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     margin: auto;
     padding: 10px, 52px;
     min-width: 200px;
