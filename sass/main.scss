@@ -360,16 +360,12 @@
 }
 /* =====TEAM ICONS====== */
 .socials{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     gap: 10px;
 }
 
 .socials__links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     background-color: var(--third-color);
     width: 44px;
     height: 44px;
@@ -851,9 +847,7 @@ letter-spacing: 0.03em;
 }
 
 .modal-form-agreement{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     gap: 9px;
     margin-bottom: 30px;
     font-family: 'Roboto';
