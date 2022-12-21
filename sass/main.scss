@@ -273,9 +273,7 @@
     line-height: 1.71;
 }
 .special__icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
