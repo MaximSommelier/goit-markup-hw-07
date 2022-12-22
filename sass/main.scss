@@ -6,7 +6,8 @@
 @import './utils/variables';
 @import './utils/mixins';
 // components styles
-@import './';
+@import './components/section';
+@import './components/container';
 
 
 .header-portfolio{
