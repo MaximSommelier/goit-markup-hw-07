@@ -314,6 +314,65 @@ img {
   border-bottom: 1px solid var(--portfolio-border);
 }
 
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.contacts-link {
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--little-color);
+  text-decoration: none;
+  list-style-type: none;
+  letter-spacing: 0.02em;
+  -webkit-transition: color var(--timing-function);
+  transition: color var(--timing-function);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--second-color);
+}
+
+.header-icon {
+  fill: currentColor;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  color: var(--first-color);
+  letter-spacing: 0.03em;
+}
+
 .container-navi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,27 +405,6 @@ img {
   margin-left: 50px;
 }
 
-.contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
 .nav-list__link {
   position: relative;
   display: block;
@@ -374,7 +412,6 @@ img {
   padding-bottom: 32px;
 }
 
-/* =====HEADER ANIMATION====== */
 .nav-list__link::after {
   content: "";
   position: absolute;
@@ -404,48 +441,9 @@ img {
   transition: color var(--timing-function);
 }
 
-.contacts-link {
-  margin-left: 50px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--little-color);
-  text-decoration: none;
-  list-style-type: none;
-  letter-spacing: 0.02em;
-  -webkit-transition: color var(--timing-function);
-  transition: color var(--timing-function);
-}
-
 .nav-chapter:hover,
-.contacts-link:hover {
+.nav-chapter:focus {
   color: var(--second-color);
-}
-
-.nav-chapter:focus,
-.contacts-link:focus {
-  color: var(--second-color);
-}
-
-.logo-link {
-  font-family: "Raleway", sans-serif;
-  color: var(--second-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-}
-
-.logo-header {
-  font-family: "Raleway", sans-serif;
-  color: var(--first-color);
-  letter-spacing: 0.03em;
-}
-
-/* ====HEADER ICONS===== */
-.header-icon {
-  fill: currentColor;
 }
 
 /* =====MAIN SECTION===== */
