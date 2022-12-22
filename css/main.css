@@ -446,7 +446,6 @@ img {
   color: var(--second-color);
 }
 
-/* =====MAIN SECTION===== */
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -475,7 +474,6 @@ img {
   letter-spacing: 0.06em;
 }
 
-/* =====MAIN BUTTON======  */
 .hero-button {
   display: block;
   margin: 0 auto;
@@ -506,7 +504,6 @@ img {
   background-color: var(--main-button-background);
 }
 
-/*=====SPECIALS===== */
 .special__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -550,7 +547,6 @@ img {
   background-color: var(--bg-color-team);
 }
 
-/* =====ABOUT===== */
 .about-section {
   padding-top: 0px;
 }
@@ -591,7 +587,6 @@ img {
   text-transform: uppercase;
 }
 
-/* =====TEAM====== */
 .section-team {
   background-color: var(--bg-color-team);
 }
@@ -639,7 +634,6 @@ img {
   margin-bottom: 16px;
 }
 
-/* =====TEAM ICONS====== */
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
