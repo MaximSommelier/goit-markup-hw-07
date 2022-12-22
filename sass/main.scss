@@ -1,8 +1,11 @@
+// base styles
 @import './base/normalize';
 @import './base/reset';
 @import './base/base';
+// utils styles
 @import './utils/variables';
 @import './utils/mixins';
+// components styles
 @import './';
 
 
