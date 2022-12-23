@@ -1,0 +1,33 @@
+.clients-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients{
+    @include centeredFlex(flex);
+    gap: 30px;
+}
+
+.client-link{
+    @include centeredFlex(flex);
+    width: 170px;
+    height: 90px;
+    background-color: var(--third-color);  
+    border: 1px solid var(--icons-color); 
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color var(--timing-function);
+}
+
+.icon-client{
+    fill: var(--icons-color);
+    transition: fill var(--timing-function);
+}
+.client-link:hover,
+.client-link:focus{
+    border-color: var(--second-color);
+}
+
+.client-link:focus .icon-client,
+.client-link:hover .icon-client{
+    fill: var(--second-color);
+}
