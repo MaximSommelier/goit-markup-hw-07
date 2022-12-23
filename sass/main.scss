@@ -8,7 +8,6 @@
 // components styles
 @import './components/section';
 @import './components/container';
-@import './components/title&img';
 @import './components/header';
 @import './components/logo';
 @import './components/nav';
@@ -129,15 +128,6 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-}
-
-.list{
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.visually-hidden{
-    display: none;
 }
 
 /* =====FOOTER===== */

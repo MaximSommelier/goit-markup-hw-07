@@ -267,6 +267,27 @@ img {
   letter-spacing: 0.03em;
 }
 
+.title {
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
 :root {
   --main-color: #212121;
   --main-bg-color: #F5F5F5;
@@ -871,15 +892,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
-
-.list {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.visually-hidden {
-  display: none;
 }
 
 /* =====FOOTER===== */
