@@ -1024,16 +1024,14 @@ img {
   -webkit-transition: border-color var(--timing-function);
   transition: border-color var(--timing-function);
 }
+.client-link:hover, .client-link:focus {
+  border-color: var(--second-color);
+}
 
 .icon-client {
   fill: var(--icons-color);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
-}
-
-.client-link:hover,
-.client-link:focus {
-  border-color: var(--second-color);
 }
 
 .client-link:focus .icon-client,
