@@ -434,7 +434,6 @@ img {
   -webkit-transition: outline var(--timing-function);
   transition: outline var(--timing-function);
 }
-
 .modal-form-message::-webkit-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -444,7 +443,6 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -454,7 +452,6 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message:-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -464,7 +461,6 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message::-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -474,7 +470,6 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -484,7 +479,6 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message:focus {
   outline: 1px solid var(--second-color);
 }
@@ -539,7 +533,6 @@ img {
   transition: transform var(--timing-function);
   transition: transform var(--timing-function), -webkit-transform var(--timing-function);
 }
-
 .modal-form-checkbox:checked {
   border-color: var(--second-color);
   background-color: var(--second-color);
@@ -592,9 +585,7 @@ img {
   transition: background-color var(--timing-function), box-shadow var(--timing-function);
   transition: background-color var(--timing-function), box-shadow var(--timing-function), -webkit-box-shadow var(--timing-function);
 }
-
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: rgb(24, 140, 232);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
