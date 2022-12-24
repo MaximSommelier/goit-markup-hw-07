@@ -972,16 +972,14 @@ img {
   -webkit-transition: background-color var(--timing-function);
   transition: background-color var(--timing-function);
 }
+.socials__links:focus, .socials__links:hover {
+  background-color: var(--second-color);
+}
 
 .socials__icon {
   fill: var(--icons-color);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
-}
-
-.socials__links:focus,
-.socials__links:hover {
-  background-color: var(--second-color);
 }
 
 .socials__links:focus .socials__icon,

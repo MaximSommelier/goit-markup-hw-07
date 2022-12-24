@@ -49,16 +49,16 @@
     height: 44px;
     border-radius: 50%;
     transition: background-color var(--timing-function);
+
+    &:focus,
+    &:hover{
+    background-color: var(--second-color);
+}
 }
 
 .socials__icon {
     fill: var(--icons-color);
     transition: fill var(--timing-function);
-}
-
-.socials__links:focus,
-.socials__links:hover{
-    background-color: var(--second-color);
 }
 
 .socials__links:focus .socials__icon,
