@@ -8,12 +8,13 @@
     height: 44px;
     border-radius: 50%;
     transition: background-color var(--timing-function);
+
+    &:focus,
+    &:hover{
+    background-color: var(--second-color);
+    }
 }
 .socials-icon-footer{
     fill:var(--third-color);
 }
 
-.socials-links-footer:focus,
-.socials-links-footer:hover{
-    background-color: var(--second-color);
-}

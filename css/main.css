@@ -1279,14 +1279,12 @@ img {
   -webkit-transition: background-color var(--timing-function);
   transition: background-color var(--timing-function);
 }
+.socials-links-footer:focus, .socials-links-footer:hover {
+  background-color: var(--second-color);
+}
 
 .socials-icon-footer {
   fill: var(--third-color);
-}
-
-.socials-links-footer:focus,
-.socials-links-footer:hover {
-  background-color: var(--second-color);
 }
 
 .subscribe-footer {
