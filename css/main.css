@@ -666,9 +666,7 @@ img {
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
 }
-
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--second-color);
 }
 
@@ -719,7 +717,6 @@ img {
   display: flex;
   margin-left: 93px;
 }
-
 .nav-list :not(:first-child) {
   margin-left: 50px;
 }
@@ -730,7 +727,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .nav-list__link::after {
   content: "";
   position: absolute;
@@ -759,9 +755,7 @@ img {
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
 }
-
-.nav-chapter:hover,
-.nav-chapter:focus {
+.nav-chapter:hover, .nav-chapter:focus {
   color: var(--second-color);
 }
 

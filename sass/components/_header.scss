@@ -25,11 +25,11 @@
     list-style-type: none;
     letter-spacing: 0.02em;
     transition: color var(--timing-function);
-}
 
-.contacts-link:hover,
-.contacts-link:focus{
+    &:hover,
+    &:focus{
     color: var(--second-color);
+    }
 }
 
 .header-icon{
