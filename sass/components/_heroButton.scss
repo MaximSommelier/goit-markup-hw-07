@@ -16,11 +16,9 @@
     min-width: 216px;
     min-height: 50px;
     transition: background-color var(--timing-function);
-}
 
-.hero-button:hover{
-    background-color: var(--main-button-background);
-}
-.hero-button:focus{
-    background-color:var(--main-button-background);
+    &:hover,
+    &:focus{
+        background-color: var(--main-button-background);
+    }
 }
