@@ -9,12 +9,12 @@
     transition: opacity var(--timing-function), visibility var(--timing-function);
     animation-name: scale-in-center;
     animation-duration: 3000ms;
-}
 
-.backdrop.is-hidden{
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    &.is-hidden{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
 }
 
 .modal{
@@ -48,11 +48,13 @@
 
 .modal-icon-close{
     fill: var(--first-color);
-}
-.modal-icon-close:focus,
-.modal-icon-close:hover{
+
+    &:focus,
+    &:hover{
     fill: var(--second-color);
+    }
 }
+
 .modal-form-group{
     margin-bottom: 20px;
 }
@@ -95,11 +97,11 @@
     outline: 1px solid transparent;
     outline-offset: -1px;
     transition: outline var(--timing-function);
-}
 
-.modal-form-field:focus{
+    &:focus{
     outline: 1px solid var(--second-color);
     }
+}
 
 .modal-form-message{
     display: block;

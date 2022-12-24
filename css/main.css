@@ -321,7 +321,6 @@ img {
   -webkit-animation-duration: 3000ms;
           animation-duration: 3000ms;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -368,9 +367,7 @@ img {
 .modal-icon-close {
   fill: var(--first-color);
 }
-
-.modal-icon-close:focus,
-.modal-icon-close:hover {
+.modal-icon-close:focus, .modal-icon-close:hover {
   fill: var(--second-color);
 }
 
@@ -419,7 +416,6 @@ img {
   -webkit-transition: outline var(--timing-function);
   transition: outline var(--timing-function);
 }
-
 .modal-form-field:focus {
   outline: 1px solid var(--second-color);
 }
