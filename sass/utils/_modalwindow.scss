@@ -101,6 +101,10 @@
     &:focus{
     outline: 1px solid var(--second-color);
     }
+
+    &:focus +.modal-icon{
+        fill: var(--second-color);
+    }
 }
 
 .modal-form-message{
@@ -137,10 +141,6 @@
     left: 12px;
     transform: translateY(-50%);
     transition: fill var(--timing-function);
-}
-
-.modal-form-field:focus +.modal-icon{
-    fill: var(--second-color);
 }
 
 .modal-form-agreement{

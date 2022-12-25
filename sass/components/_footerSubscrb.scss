@@ -17,18 +17,18 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: var(--third-color);
-}
 
-.subscribe-field::placeholder{
-    display: flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
+    &::placeholder{
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+    }
 }
 
 .subscribe-button{

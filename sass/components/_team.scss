@@ -54,14 +54,14 @@
     &:hover{
     background-color: var(--second-color);
     }
+
+    &:focus .socials__icon,
+    &:hover .socials__icon{
+    fill: var(--third-color);
+    }
 }
 
 .socials__icon {
     fill: var(--icons-color);
     transition: fill var(--timing-function);
-}
-
-.socials__links:focus .socials__icon,
-.socials__links:hover .socials__icon{
-    fill: var(--third-color);
 }

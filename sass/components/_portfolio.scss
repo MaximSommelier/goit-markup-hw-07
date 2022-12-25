@@ -16,14 +16,13 @@
     &:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-}
 
-.portfolio-card:hover .portfolio-card-overlay,
-.portfolio-card:focus .portfolio-card-overlay{
+    &:hover .portfolio-card-overlay,
+    &:focus .portfolio-card-overlay{
     opacity: 1;
     transform: translateY(0);
+    }
 }
-
 
 .portfolio-card-overlay{
     position: absolute;

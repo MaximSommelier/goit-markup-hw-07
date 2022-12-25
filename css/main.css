@@ -419,6 +419,9 @@ img {
 .modal-form-field:focus {
   outline: 1px solid var(--second-color);
 }
+.modal-form-field:focus + .modal-icon {
+  fill: var(--second-color);
+}
 
 .modal-form-message {
   display: block;
@@ -491,10 +494,6 @@ img {
           transform: translateY(-50%);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
-}
-
-.modal-form-field:focus + .modal-icon {
-  fill: var(--second-color);
 }
 
 .modal-form-agreement {
@@ -975,16 +974,14 @@ img {
 .socials__links:focus, .socials__links:hover {
   background-color: var(--second-color);
 }
+.socials__links:focus .socials__icon, .socials__links:hover .socials__icon {
+  fill: var(--third-color);
+}
 
 .socials__icon {
   fill: var(--icons-color);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
-}
-
-.socials__links:focus .socials__icon,
-.socials__links:hover .socials__icon {
-  fill: var(--third-color);
 }
 
 .clients-title {
@@ -1027,16 +1024,14 @@ img {
 .client-link:hover, .client-link:focus {
   border-color: var(--second-color);
 }
+.client-link:focus .icon-client, .client-link:hover .icon-client {
+  fill: var(--second-color);
+}
 
 .icon-client {
   fill: var(--icons-color);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
-}
-
-.client-link:focus .icon-client,
-.client-link:hover .icon-client {
-  fill: var(--second-color);
 }
 
 .portfolio-btn {
@@ -1109,9 +1104,7 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.portfolio-card:hover .portfolio-card-overlay,
-.portfolio-card:focus .portfolio-card-overlay {
+.portfolio-card:hover .portfolio-card-overlay, .portfolio-card:focus .portfolio-card-overlay {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -1319,7 +1312,6 @@ img {
   border-radius: 4px;
   color: var(--third-color);
 }
-
 .subscribe-field::-webkit-input-placeholder {
   display: -webkit-box;
   display: flex;
@@ -1333,7 +1325,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .subscribe-field::-moz-placeholder {
   display: flex;
   align-items: center;
@@ -1345,7 +1336,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .subscribe-field:-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
@@ -1359,7 +1349,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .subscribe-field::-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
@@ -1373,7 +1362,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .subscribe-field::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
